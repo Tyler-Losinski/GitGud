@@ -22,6 +22,16 @@
         color: black;
         cursor: default;
       }
+      
+      a#question {
+        display: inline-block;
+        position: absolute;
+        top: 1vmin;
+        right: 1vmin;
+        font-size: 12pt;
+        font-family: Arial, sans-serif;
+        cursor: pointer;
+      }
   
       .flag {
         position: absolute;
@@ -87,7 +97,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&amp;amp;subset=cyrillic" rel="stylesheet"></head><span id="warning-container"><i data-reactroot=""></i></span>
   
   <body>
-    <a id="answer" href="#" target="_blank" title="NO" onclick="return false">Git Gud</a>
-    
+    <a id="answer" href="#" target="_blank" title="NO" onclick="return false;">Git Gud</a>
+    <a id="question" onclick="alert('NO'); return false;">help</a>
   
 </body>

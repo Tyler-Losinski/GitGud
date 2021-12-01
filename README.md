@@ -1,1 +1,1 @@
-GitGud
+GitGud.help
